@@ -1,8 +1,8 @@
-####API Currency Converter
+# API Currency Converter
 
 Este projeto é um conversor de moedas que utiliza uma API de câmbio real para obter taxas de conversão atualizadas. Ele consiste em um backend desenvolvido com Node.js + Express e um frontend criado com React para interagir com a API.
 
-##📌 Funcionalidades
+## 📌 Funcionalidades
 
 Conversão de moedas em tempo real.
 
@@ -10,35 +10,14 @@ Interface simples e intuitiva para inserir valores e selecionar moedas.
 
 Backend integrado com a ExchangeRate-API para obter as taxas de câmbio reais.
 
-##📂 Estrutura do Projeto
+## 🚀 Como Rodar o Projeto
 
-📁 seu-projeto/
-│
-├── 📁 api-currency-converter/ # Backend (Node.js + Express)
-│ ├── 📁 src/ # Código-fonte do backend
-│ │ ├── server.js # Código principal da API
-│ │ ├── .env # Chave da API de câmbio
-│ ├── package.json # Configurações do backend
-│ ├── .gitignore # Ignorar arquivos no Git
-│
-├── 📁 frontend/ # Frontend (React)
-│ ├── 📁 src/ # Código-fonte do frontend
-│ │ ├── components/ # Componentes React
-│ │ │ ├── CurrencyConverter.js # Componente principal
-│ │ ├── App.js # Arquivo principal do React
-│ ├── package.json # Configurações do frontend
-│ ├── .gitignore # Ignorar arquivos no Git
-│
-├── README.md # Documentação do projeto
+### 1️⃣ Clonar o repositório
 
-##🚀 Como Rodar o Projeto
-
-#1️⃣ Clonar o repositório
-
-git clone https://github.com/seu-usuario/api-currency-converter.git
+git clone [https://github.com/seu-usuario/api-currency-converter.git](https://github.com/leonardopenz/api-conversor-moedas)
 cd api-currency-converter
 
-#2️⃣ Configurar o Backend
+### 2️⃣ Configurar o Backend
 
 Instale as dependências:
 
@@ -52,7 +31,7 @@ Inicie o servidor:
 
 node src/server.js
 
-#3️⃣ Configurar o Frontend
+### 3️⃣ Configurar o Frontend
 
 Vá para a pasta do frontend:
 
@@ -66,13 +45,13 @@ Inicie a aplicação React:
 
 npm start
 
-#4️⃣ Acesse no navegador
+### 4️⃣ Acesse no navegador
 
 http://localhost:3000
 
-##🔗 Endpoints da API
+## 🔗 Endpoints da API
 
-#Converter Moeda
+### Converter Moeda
 
 Rota: GET /convert
 
@@ -84,11 +63,11 @@ to (string) - Código da moeda de destino (ex: BRL)
 
 amount (number) - Valor a ser convertido
 
-#Exemplo de requisição:
+### Exemplo de requisição:
 
-http://localhost:3000/convert?from=USD&to=BRL&amount=10
+http://localhost:5000/convert?from=USD&to=BRL&amount=10
 
-#Resposta esperada:
+### Resposta esperada:
 
 {
 "from": "USD",
@@ -98,7 +77,7 @@ http://localhost:3000/convert?from=USD&to=BRL&amount=10
 "rate": 5.03
 }
 
-##📌 Melhorias Futuras
+## 📌 Melhorias Futuras
 
 Buscar moedas dinâmicas da API em vez de opções fixas no front-end.
 
@@ -108,6 +87,6 @@ Adicionar cache para reduzir chamadas repetidas à API.
 
 Fazer deploy do backend no Railway e do frontend na Vercel.
 
-##📜 Licença
+## 📜 Licença
 
 Este projeto está sob a licença MIT. Sinta-se livre para usá-lo e melhorá-lo! 😊
