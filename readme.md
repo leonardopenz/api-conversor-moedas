@@ -14,7 +14,7 @@ Backend integrado com a ExchangeRate-API para obter as taxas de câmbio reais.
 
 ### 1️⃣ Clonar o repositório
 
-git clone [https://github.com/seu-usuario/api-currency-converter.git](https://github.com/leonardopenz/api-conversor-moedas)
+git clone [https://github.com/leonardopenz/api-conversor-moedas.git](https://github.com/leonardopenz/api-conversor-moedas)
 cd api-currency-converter
 
 ### 2️⃣ Configurar o Backend
